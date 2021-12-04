@@ -1,0 +1,20 @@
+{
+    "name": "sergi/practica2",
+    "description": "Gestion de empresa Practica 2",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Empresa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergio",
+            "email": "sergioferal@hotmail.es"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.16"
+    }
+}
